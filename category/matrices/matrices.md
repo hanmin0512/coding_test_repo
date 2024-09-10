@@ -73,3 +73,14 @@ int main(){
 
 <img width="521" alt="스크린샷 2024-09-10 오후 3 56 45" src="https://github.com/user-attachments/assets/2aea79b9-265b-4f0d-91ea-c4959e3dcbdb">
 
+## 행렬 연산 주요 로직
+
+```cpp
+    for (int i=0; i< matric1.size(); i++){ // matric1 행 선택 i
+        for (int j=0; j< matric2[0].size(); j++){ // matric2 열 선택 j
+            for (int k=0; k < matric2.size(); k++){ // 각 matric 원소 접근하기 위한 k
+                answer[i][j] += matric1[i][k] * matric2[k][j];
+            }
+        }
+    }
+```
