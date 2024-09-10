@@ -53,3 +53,23 @@ int main(){
 
 <img width="644" alt="스크린샷 2024-09-10 오후 3 53 09" src="https://github.com/user-attachments/assets/d59e910d-041b-450f-8989-4c9ff8b6ea89">
 
+## 예시2
+
+![IMG_EE03486BB324-1](https://github.com/user-attachments/assets/52ba6ed0-9b2b-4ca7-9566-2cbc3ca96561)
+
+```cpp
+    vector<vector<int>> matric1 = {{2,4,6,8}, 
+                                   {10,2,4,6},
+                                   {8,10,2,4}};
+    
+    vector<vector<int>> matric2 = {{2,2,2}, 
+                                   {4,4,4},
+                                   {6,6,6},
+                                   {8,8,8},
+                                   {10,10,10}};
+```
+
+(4 x 3), (3 x 4) 행렬 연산 결과 (3 x 3) 결과가 나온다.
+
+<img width="521" alt="스크린샷 2024-09-10 오후 3 56 45" src="https://github.com/user-attachments/assets/2aea79b9-265b-4f0d-91ea-c4959e3dcbdb">
+
